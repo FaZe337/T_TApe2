@@ -1,9 +1,9 @@
 #pragma once
 
 constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
-constexpr long OFF_LEVEL = 0x16da6b0;                         //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x2165e48;                  //[Miscellaneous]->LocalPlayer
-constexpr long OFF_ENTITY_LIST = 0x1db73e8;                   //[Miscellaneous]->cl_entitylist
+constexpr long OFF_LEVEL = 0x16db770;                         //[Miscellaneous]->LevelName
+constexpr long OFF_LOCAL_PLAYER = 0x2166fa8;                  //[Miscellaneous]->LocalPlayer
+constexpr long OFF_ENTITY_LIST = 0x1db8548;                   //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x16da1b0; //[Miscellaneous]->GlobalVars
 //TODO
 constexpr long OFF_CAMERAORIGIN = 0x1eb0;                     //[Miscellaneous]->CPlayer!camera_origin
@@ -13,7 +13,7 @@ constexpr long OFF_INPUT_SYSTEM = 0x1759640; //[Miscellaneous] InputSystem
 constexpr long OFF_MOUSE_SENSITIVITY = 0x02152a20; //mouse_sensitivity
 
 // HUD
-constexpr long OFF_VIEW_RENDER = 0x73df958;                    //[Miscellaneous]->ViewRender
+constexpr long OFF_VIEW_RENDER = 0x73e0ad8;                    //[Miscellaneous]->ViewRender
 constexpr long OFF_VIEW_MATRIX = 0x11a350;                     //[Miscellaneous]->ViewMatrix
 
 // Buttons
