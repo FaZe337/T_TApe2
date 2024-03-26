@@ -17,10 +17,10 @@ constexpr long OFF_VIEW_RENDER = 0x73e0ad8;                    //[Miscellaneous]
 constexpr long OFF_VIEW_MATRIX = 0x11a350;                     //[Miscellaneous]->ViewMatrix
 
 // Buttons
-constexpr long OFF_IN_ATTACK = 0x073e0bd8;                     //[Buttons]->in_attack
-constexpr long OFF_IN_JUMP = 0x073e0cf0;                      //[Buttons]->in_jump
-constexpr long OFF_IN_DUCK = 0x073e0dd8;                      //[Buttons]->in_duck
-constexpr long OFFSET_IN_FORWARD = 0x073e0b28;                //[Buttons]->in_forward
+constexpr long OFF_IN_ATTACK = 0x073e1d58;                     //[Buttons]->in_attack
+constexpr long OFF_IN_JUMP = 0x073e1e70;                      //[Buttons]->in_jump
+constexpr long OFF_IN_DUCK = 0x073e1f58;                      //[Buttons]->in_duck
+constexpr long OFFSET_IN_FORWARD = 0x073ce8f0;                //[Buttons]->in_forward
 
 // Player
 constexpr long OFF_HEALTH = 0x0318;                           //[RecvTable.DT_Player]->m_iHealth
