@@ -1,10 +1,11 @@
 #pragma once
+#include <nlohmann/json.hpp>
 #include <fstream>
 #include <iomanip>
 #include <filesystem>
 #include <vector>
 #include <string>
-
+using json = nlohmann::json;
 
 #include "../Drawings/Renderer.h"
 #include "../imgui/imgui.h"
